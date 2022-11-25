@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE object
+[
+   <!ELEMENT object (#PCDATA|object)*>
+   <!ATTLIST object name      CDATA #REQUIRED>
+   <!ATTLIST object class     CDATA #REQUIRED>
+   <!ATTLIST object primitive CDATA "no">
+   <!ATTLIST object array     CDATA "no">   <!-- the dimensions of the array; no=0, yes=1 -->
+   <!ATTLIST object null      CDATA "no">
+   <!ATTLIST object version   CDATA "3.8.6">
+]
+>
+
+<object class="java.util.LinkedHashMap" name="__root__" version="3.8.6">
+   <object class="java.lang.Object" name="mapping">
+      <object class="java.lang.String" name="key">knowledgeflow</object>
+      <object class="java.util.LinkedHashMap" name="value">
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="java.util.LinkedList" name="pickList">
+                  <object class="java.lang.String" name="0">&lt;use platform default&gt;</object>
+                  <object class="java.lang.String" name="1">javax.swing.plaf.metal.MetalLookAndFeel</object>
+                  <object class="java.lang.String" name="2">javax.swing.plaf.nimbus.NimbusLookAndFeel</object>
+                  <object class="java.lang.String" name="3">com.sun.java.swing.plaf.motif.MotifLookAndFeel</object>
+                  <object class="java.lang.String" name="4">com.sun.java.swing.plaf.windows.WindowsLookAndFeel</object>
+                  <object class="java.lang.String" name="5">com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel</object>
+                  <object class="java.lang.String" name="6">com.formdev.flatlaf.FlatLightLaf</object>
+                  <object class="java.lang.String" name="7">com.formdev.flatlaf.FlatDarkLaf</object>
+                  <object class="java.lang.String" name="8">com.formdev.flatlaf.FlatIntelliJLaf</object>
+                  <object class="java.lang.String" name="9">com.formdev.flatlaf.FlatDarculaLaf</object>
+               </object>
+               <object class="java.lang.String" name="toolTip">Note: a restart is required for this setting ot come into effect</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.lookAndFeel</object>
+               <object class="java.lang.String" name="description">Look and feel for UI</object>
+            </object>
+            <object class="java.lang.String" name="value"/>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.showGlobalInfoTipText</object>
+               <object class="java.lang.String" name="description">Show scheme tool tips in tree view</object>
+            </object>
+            <object class="java.lang.Boolean" name="value">true</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="java.util.LinkedList" name="pickList">
+                  <object class="java.lang.String" name="0">Default execution environment</object>
+               </object>
+               <object class="java.lang.String" name="toolTip">Executor for flow processes</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.exec_env</object>
+               <object class="java.lang.String" name="description">Execution environment</object>
+            </object>
+            <object class="java.lang.String" name="value">Default execution environment</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.stepExecutorNumThreads</object>
+               <object class="java.lang.String" name="description">Number of threads to use in the main step executor service</object>
+            </object>
+            <object class="java.lang.Integer" name="value">50</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">&lt;html&gt;This executor service is used for executing StepTasks and&lt;br&gt;Steps that are marked as resource intensive. 0 = use as many&lt;br&gt;threads as there are cpu processors.&lt;/html&gt;</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.highResourceExecutorNumThreads</object>
+               <object class="java.lang.String" name="description">Number of threads to use in the resource intensive executor service</object>
+            </object>
+            <object class="java.lang.Integer" name="value">0</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">perspective_manager.visible_perspectives</object>
+               <object class="java.lang.String" name="description">Visible perspectives</object>
+            </object>
+            <object class="weka.gui.PerspectiveManager$SelectedPerspectivePreferences" name="value">
+               <object class="boolean" name="perspectivesToolbarVisibleOnStartup" primitive="yes">true</object>
+               <object class="java.util.LinkedList" name="userVisiblePerspectives">
+                  <object class="java.lang.String" name="0">Attribute summary</object>
+                  <object class="java.lang.String" name="1">Scatter plot matrix</object>
+                  <object class="java.lang.String" name="2">SQL Viewer</object>
+                  <object class="java.lang.String" name="3">Simple CLI</object>
+               </object>
+               <object class="boolean" name="perspectivesToolbarAlwaysHidden" primitive="yes">false</object>
+            </object>
+         </object>
+      </object>
+   </object>
+   <object class="java.lang.Object" name="mapping">
+      <object class="java.lang.String" name="key">knowledgeflow.main</object>
+      <object class="java.util.LinkedHashMap" name="value">
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">Maximum number of states to keep in the undobuffer</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.maxUndoPoints</object>
+               <object class="java.lang.String" name="description">Maximum undo points</object>
+            </object>
+            <object class="java.lang.Integer" name="value">20</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.layoutcolor</object>
+               <object class="java.lang.String" name="description">Layout background color</object>
+            </object>
+            <object class="java.awt.Color" name="value">
+               <object class="java.lang.Integer" name="red">242</object>
+               <object class="java.lang.Integer" name="green">242</object>
+               <object class="java.lang.Integer" name="blue">242</object>
+            </object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">The snap-to-grid grid</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.showgrid</object>
+               <object class="java.lang.String" name="description">Show grid</object>
+            </object>
+            <object class="java.lang.Boolean" name="value">false</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">The snap-to-grid line color</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.gridcolor</object>
+               <object class="java.lang.String" name="description">Grid line color</object>
+            </object>
+            <object class="java.awt.Color" name="value">
+               <object class="java.lang.Integer" name="red">192</object>
+               <object class="java.lang.Integer" name="green">192</object>
+               <object class="java.lang.Integer" name="blue">192</object>
+            </object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">The spacing for snap-to-grid</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.gridSpacing</object>
+               <object class="java.lang.String" name="description">Grid spacing</object>
+            </object>
+            <object class="java.lang.Integer" name="value">40</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">The width (in pixels) of the flow layout</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.layoutWidth</object>
+               <object class="java.lang.String" name="description">Layout width</object>
+            </object>
+            <object class="java.lang.Integer" name="value">2560</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">The height (in pixels) of the flow layout</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.layoutHeight</object>
+               <object class="java.lang.String" name="description">Layout height</object>
+            </object>
+            <object class="java.lang.Integer" name="value">1440</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">The point size of the font used to render the names of steps and connections on the layout</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.stepLabelFontSize</object>
+               <object class="java.lang.String" name="description">Font size for step/connection labels</object>
+            </object>
+            <object class="java.lang.Integer" name="value">9</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">The logging level to use</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.loggingLevel</object>
+               <object class="java.lang.String" name="description">Logging level</object>
+            </object>
+            <object class="weka.core.EnumHelper" name="value">
+               <object class="java.lang.String" name="selectedEnumValue">Basic</object>
+               <object class="java.lang.String" name="enumClass">weka.knowledgeflow.LoggingLevel</object>
+            </object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">Size of font for log messages (-1 = system default)</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">knowledgeflow.main.logMessageFontSize</object>
+               <object class="java.lang.String" name="description">Size of font for log messages</object>
+            </object>
+            <object class="java.lang.Integer" name="value">-1</object>
+         </object>
+      </object>
+   </object>
+   <object class="java.lang.Object" name="mapping">
+      <object class="java.lang.String" name="key">attributesummary</object>
+      <object class="java.util.LinkedHashMap" name="value">
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.knowledgeflow.attributesummary.gridWidth</object>
+               <object class="java.lang.String" name="description">Number of plots to display horizontally</object>
+            </object>
+            <object class="java.lang.Integer" name="value">4</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.knowledgeflow.attributesummary.maxPlots</object>
+               <object class="java.lang.String" name="description">Maximum number of plots to render</object>
+            </object>
+            <object class="java.lang.Integer" name="value">100</object>
+         </object>
+      </object>
+   </object>
+   <object class="java.lang.Object" name="mapping">
+      <object class="java.lang.String" name="key">weka.gui.knowledgeflow.scatterplotmatrixperspective</object>
+      <object class="java.util.LinkedHashMap" name="value">
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.workbench.visualizepanel.pointSize</object>
+               <object class="java.lang.String" name="description">Point size for scatter plots</object>
+            </object>
+            <object class="java.lang.Integer" name="value">1</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.workbench.visualizepanel.plotSize</object>
+               <object class="java.lang.String" name="description">Size (in pixels) of the cells in the matrix</object>
+            </object>
+            <object class="java.lang.Integer" name="value">100</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.visualize.visualizepanel.axisColor</object>
+               <object class="java.lang.String" name="description">Colour of the axis</object>
+            </object>
+            <object class="java.awt.Color" name="value">
+               <object class="java.lang.Integer" name="red">0</object>
+               <object class="java.lang.Integer" name="green">255</object>
+               <object class="java.lang.Integer" name="blue">0</object>
+            </object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.visualize.visualizepanel.backgroundColor</object>
+               <object class="java.lang.String" name="description">Background colour of scatter plot</object>
+            </object>
+            <object class="java.awt.Color" name="value">
+               <object class="java.lang.Integer" name="red">255</object>
+               <object class="java.lang.Integer" name="green">255</object>
+               <object class="java.lang.Integer" name="blue">255</object>
+            </object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip"/>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.visualize.visualizepanel.attributeBarBackgroundColor</object>
+               <object class="java.lang.String" name="description">Background colour for the 1-dimensional attribute bars</object>
+            </object>
+            <object class="java.awt.Color" name="value">
+               <object class="java.lang.Integer" name="red">255</object>
+               <object class="java.lang.Integer" name="green">255</object>
+               <object class="java.lang.Integer" name="blue">255</object>
+            </object>
+         </object>
+      </object>
+   </object>
+   <object class="java.lang.Object" name="mapping">
+      <object class="java.lang.String" name="key">weka.gui.knowledgeflow.steps.textviewer</object>
+      <object class="java.util.LinkedHashMap" name="value">
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">Font to use in the output area</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.knowledgeflow.steps.textviewer.outputFont</object>
+               <object class="java.lang.String" name="description">Font for text output</object>
+            </object>
+            <object class="weka.core.FontHelper" name="value">
+               <object class="java.lang.String" name="fontName">Monospaced.plain</object>
+               <object class="int" name="fontSize" primitive="yes">12</object>
+               <object class="int" name="fontStyle" primitive="yes">0</object>
+            </object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">Color of output text</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.knowledgeflow.steps.textviewer.outputFontColor</object>
+               <object class="java.lang.String" name="description">Output text color</object>
+            </object>
+            <object class="java.awt.Color" name="value">
+               <object class="java.lang.Integer" name="red">0</object>
+               <object class="java.lang.Integer" name="green">0</object>
+               <object class="java.lang.Integer" name="blue">0</object>
+            </object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">Output background color</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.knowledgeflow.steps.textviewer.outputBackgroundColor</object>
+               <object class="java.lang.String" name="description">Output background color</object>
+            </object>
+            <object class="java.awt.Color" name="value">
+               <object class="java.lang.Integer" name="red">255</object>
+               <object class="java.lang.Integer" name="green">255</object>
+               <object class="java.lang.Integer" name="blue">255</object>
+            </object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">Number of columns of text</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.knowledgeflow.steps.textviewer.numColumns</object>
+               <object class="java.lang.String" name="description">Number of columns of text</object>
+            </object>
+            <object class="java.lang.Integer" name="value">80</object>
+         </object>
+         <object class="java.lang.Object" name="mapping">
+            <object class="weka.core.Settings$SettingKey" name="key">
+               <object class="null" name="pickList" null="yes"/>
+               <object class="java.lang.String" name="toolTip">Number of rows of text</object>
+               <object class="null" name="metadata" null="yes"/>
+               <object class="java.lang.String" name="key">weka.gui.knowledgeflow.steps.textviewer.numRows</object>
+               <object class="java.lang.String" name="description">Number of rows of text</object>
+            </object>
+            <object class="java.lang.Integer" name="value">20</object>
+         </object>
+      </object>
+   </object>
+</object>
